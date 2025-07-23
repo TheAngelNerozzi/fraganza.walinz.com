@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Home, Heart, User, ShoppingBag, Gift, Star } from "lucide-react"
-import SidebarSearch from "@/components/SidebarSearch"
+import SidebarSearch from "@/components/SidebarSearch" 
 
 import {
   Sidebar,
@@ -72,12 +72,7 @@ export function AppSidebar() {
           </div>
         </div>
 
-        {/* Buscador de fragancias */}
-        {!isCollapsed && (
-          <div className="px-4 mb-6">
-            <SidebarSearch />
-          </div>
-        )}
+
 
         {/* Navigation */}
         <SidebarGroup>
