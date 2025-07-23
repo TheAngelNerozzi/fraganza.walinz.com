@@ -10,6 +10,7 @@ import { products } from "@/data/products";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Search, Heart, User, Star } from "lucide-react";
+import SidebarSearch from "@/components/SidebarSearch";
 import heroImage from "@/assets/hero-perfume.jpg";
 import femaleImage from "@/assets/perfume-feminine.jpg";
 import maleImage from "@/assets/perfume-masculine.jpg";
@@ -119,6 +120,11 @@ function MainContent() {
             </div>
           </div>
         </section>
+        
+        {/* Barra de búsqueda central */}
+        <div className="max-w-2xl mx-auto mb-8">
+          <SidebarSearch />
+        </div>
 
         {/* Products */}
         <section id="productos" className="mb-12">
