@@ -26,7 +26,6 @@ const productData = [
     "referencia": "E001",
     "descripcion": "PERFUME SWISS ARMY DM",
     "categoria": "DAMA",
-    "image": "https://i5.walmartimages.com/asr/8f9ba72a-dc05-441b-94bc-0533ffb531db.fea459e892e537206fde7b4e373b6711.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
     "precio": 2.5,
     "inStock": true
   },
