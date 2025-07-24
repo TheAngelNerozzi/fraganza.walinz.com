@@ -115,7 +115,7 @@ function MainContent() {
               <p className="text-xl md:text-2xl mb-2 text-gold-light">Perfumes de Aceite Premium</p>
               <p className="text-lg opacity-90">Inspirados en las mejores fragancias del mundo</p>
               <Badge className="mt-4 bg-gradient-gold text-white px-4 py-2 text-sm">
-                Desde $2.50 por unidad
+                Compra mínima: 2 unidades | Al mayor desde 12 unidades | Desde $2.50 por unidad
               </Badge>
             </div>
           </div>
