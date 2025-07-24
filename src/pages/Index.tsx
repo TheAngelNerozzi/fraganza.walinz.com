@@ -11,7 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Search, Heart, User, Star } from "lucide-react";
 import SidebarSearch from "@/components/SidebarSearch";
-import heroImage from "@/assets/hero-perfume.jpg";
+import heroImage from "@/assets/banner-perfumes.jpg";
 import femaleImage from "@/assets/perfume-feminine.jpg";
 import maleImage from "@/assets/perfume-masculine.jpg";
 import unisexImage from "@/assets/perfume-unisex.jpg";
@@ -102,12 +102,12 @@ function MainContent() {
       
       <main className="flex-1 p-6 overflow-auto">
         {/* Hero Section */}
-        <section className="relative mb-12 rounded-2xl overflow-hidden bg-gradient-elegant shadow-premium">
+        <section className="relative mb-8 rounded-2xl overflow-hidden bg-gradient-elegant shadow-premium h-auto">
           <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent z-10" />
           <img
             src={getCategoryImage()}
             alt={`${getCategoryTitle()} - Perfumes de Aceite`}
-            className="w-full h-64 md:h-80 object-cover"
+            className="w-full h-auto object-contain"
           />
           <div className="absolute inset-0 z-20 flex items-center px-8">
             <div className="text-white max-w-lg">
