@@ -11,7 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Search, Heart, User, Star } from "lucide-react";
 import SidebarSearch from "@/components/SidebarSearch";
-import heroImage from "@/assets/banner-perfumes.jpg";
+import heroImage from "@/assets/ChatGPT Image 3 ago 2025, 02_26_01 p.m..png";
 import femaleImage from "@/assets/perfume-feminine.jpg";
 import maleImage from "@/assets/perfume-masculine.jpg";
 import unisexImage from "@/assets/perfume-unisex.jpg";
@@ -225,3 +225,4 @@ const Index = () => {
 };
 
 export default Index;
+
